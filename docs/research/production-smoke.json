@@ -1,0 +1,18 @@
+{
+  "measuredAt": "2026-10-14T14:47:46.317Z",
+  "browser": "153.0.8010.0",
+  "checks": [
+    "Built static launcher returns HTTP 200 and displays four playable worlds",
+    "Development diagnostic API is absent from production",
+    "Rift Runner production start, HUD, pause, resume, save and return",
+    "Bastion Protocol production start, HUD, pause, resume, save and return",
+    "Signal Garden production start, HUD, pause, resume, save and return",
+    "Frontier Zero production start, HUD, pause, resume, save and return",
+    "390×844 mobile launcher has no horizontal overflow; actual screenshot captured",
+    "Production smoke makes only same-origin asset requests; no remote runtime services",
+    "Project license, distribution notice and Vite helper license are served",
+    "No browser page errors during production smoke"
+  ],
+  "errors": [],
+  "success": true
+}

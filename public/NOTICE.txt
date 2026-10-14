@@ -1,0 +1,8 @@
+Omniverse Forge v0.1.0
+Copyright (c) 2026 Omniverse Forge contributors. MIT License; see LICENSE.txt.
+All shipped vector illustrations, icons, gameplay drawings, and procedural sound code are original to this project.
+No third-party npm runtime library, font file, audio sample, model, or game asset is distributed in this web build.
+System fonts are requested from the user's operating system, not bundled.
+Build and test tool notices are in docs/THIRD_PARTY_NOTICES.txt in the source repository.
+The Vite-generated module-preload helper is MIT licensed; its copyright and license are preserved in VITE-LICENSE.txt.
+Omniverse Forge is an independent project; no affiliation with NVIDIA Omniverse or any researched engine is implied. Project name/trademark clearance remains outstanding before a commercial release.

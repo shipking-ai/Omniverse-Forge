@@ -1,0 +1,140 @@
+{
+  "measuredAt": "2026-10-14T14:56:30.329Z",
+  "environment": {
+    "node": "v22.22.3",
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.60GHz",
+    "logicalCPUs": 2,
+    "hostMemoryBytes": 4131278848,
+    "note": "Shared sandbox; host resources are not guaranteed allocations. Headless Linux results are not mobile/GPU/other-browser claims.",
+    "browser": "153.0.8010.0"
+  },
+  "simulation": [
+    {
+      "mode": "rift",
+      "seeds": 100,
+      "completed": 100,
+      "steps": 157752,
+      "totalMilliseconds": 1233.789579,
+      "microsecondsPerStep": 7.821070915107256
+    },
+    {
+      "mode": "frontier",
+      "seeds": 100,
+      "completed": 100,
+      "steps": 223348,
+      "totalMilliseconds": 1226.6884459999999,
+      "microsecondsPerStep": 5.4922741461754745
+    }
+  ],
+  "browser": [
+    {
+      "mode": "rift",
+      "drawSamples": 300,
+      "drawMeanMs": 1.886333333333023,
+      "drawP95Ms": 0.5,
+      "rafSamples": 180,
+      "rafMedianMs": 16.699999999999818,
+      "rafP95Ms": 16.799999999999272,
+      "jsHeapUsedBytes": 10000000,
+      "note": "Draw timing measures Canvas command submission on detached 1000×620 canvas, not full GPU completion. RAF measured with the live mode running for 180 frames."
+    },
+    {
+      "mode": "bastion",
+      "drawSamples": 300,
+      "drawMeanMs": 2.7846666666679085,
+      "drawP95Ms": 1.1000000000931323,
+      "rafSamples": 180,
+      "rafMedianMs": 16.699999999999818,
+      "rafP95Ms": 16.800000000000182,
+      "jsHeapUsedBytes": 10000000,
+      "note": "Draw timing measures Canvas command submission on detached 1000×620 canvas, not full GPU completion. RAF measured with the live mode running for 180 frames."
+    },
+    {
+      "mode": "signal",
+      "drawSamples": 300,
+      "drawMeanMs": 2.4239999999990687,
+      "drawP95Ms": 0.20000000018626451,
+      "rafSamples": 180,
+      "rafMedianMs": 16.69999999999891,
+      "rafP95Ms": 16.700000000000728,
+      "jsHeapUsedBytes": 10000000,
+      "note": "Draw timing measures Canvas command submission on detached 1000×620 canvas, not full GPU completion. RAF measured with the live mode running for 180 frames."
+    },
+    {
+      "mode": "frontier",
+      "drawSamples": 300,
+      "drawMeanMs": 2.484666666666356,
+      "drawP95Ms": 0.40000000037252903,
+      "rafSamples": 180,
+      "rafMedianMs": 16.69999999999891,
+      "rafP95Ms": 16.700000000000728,
+      "jsHeapUsedBytes": 10000000,
+      "note": "Draw timing measures Canvas command submission on detached 1000×620 canvas, not full GPU completion. RAF measured with the live mode running for 180 frames."
+    }
+  ],
+  "assets": [
+    {
+      "file": "dist/LICENSE.txt",
+      "bytes": 1085,
+      "gzipBytes": 664
+    },
+    {
+      "file": "dist/NOTICE.txt",
+      "bytes": 816,
+      "gzipBytes": 513
+    },
+    {
+      "file": "dist/VITE-LICENSE.txt",
+      "bytes": 1163,
+      "gzipBytes": 705
+    },
+    {
+      "file": "dist/art/bastion.svg",
+      "bytes": 17326,
+      "gzipBytes": 2845
+    },
+    {
+      "file": "dist/art/frontier.svg",
+      "bytes": 15015,
+      "gzipBytes": 2764
+    },
+    {
+      "file": "dist/art/rift.svg",
+      "bytes": 14916,
+      "gzipBytes": 2885
+    },
+    {
+      "file": "dist/art/signal.svg",
+      "bytes": 16377,
+      "gzipBytes": 2775
+    },
+    {
+      "file": "dist/art/universe.svg",
+      "bytes": 14916,
+      "gzipBytes": 2887
+    },
+    {
+      "file": "dist/assets/index-DI4OW7vQ.js",
+      "bytes": 62403,
+      "gzipBytes": 23934
+    },
+    {
+      "file": "dist/assets/index-x3tIHuQV.css",
+      "bytes": 33110,
+      "gzipBytes": 8078
+    },
+    {
+      "file": "dist/favicon.svg",
+      "bytes": 259,
+      "gzipBytes": 203
+    },
+    {
+      "file": "dist/index.html",
+      "bytes": 673,
+      "gzipBytes": 421
+    }
+  ],
+  "totalBuildBytes": 178059
+}

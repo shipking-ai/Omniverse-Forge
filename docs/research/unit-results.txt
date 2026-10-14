@@ -1,0 +1,356 @@
+
+> omniverse-forge@0.1.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: seeded RNG is reproducible and bounded
+ok 1 - seeded RNG is reproducible and bounded
+  ---
+  duration_ms: 2.78641
+  type: 'test'
+  ...
+# Subtest: different seeds generate different worlds
+ok 2 - different seeds generate different worlds
+  ---
+  duration_ms: 0.21097
+  type: 'test'
+  ...
+# Subtest: rules normalize untrusted input to a bounded schema
+ok 3 - rules normalize untrusted input to a bounded schema
+  ---
+  duration_ms: 0.753396
+  type: 'test'
+  ...
+# Subtest: null rules use safe defaults
+ok 4 - null rules use safe defaults
+  ---
+  duration_ms: 0.123789
+  type: 'test'
+  ...
+# Subtest: collision blocks walls but permits sliding
+ok 5 - collision blocks walls but permits sliding
+  ---
+  duration_ms: 0.280499
+  type: 'test'
+  ...
+# Subtest: collision keeps player inside bounds
+ok 6 - collision keeps player inside bounds
+  ---
+  duration_ms: 0.12228
+  type: 'test'
+  ...
+# Subtest: circle-rectangle corner intersection works
+ok 7 - circle-rectangle corner intersection works
+  ---
+  duration_ms: 0.11256
+  type: 'test'
+  ...
+# Subtest: all four plugins conform to the lifecycle contract
+ok 8 - all four plugins conform to the lifecycle contract
+  ---
+  duration_ms: 1.809532
+  type: 'test'
+  ...
+# Subtest: hybrid compatibility accepts shared real-time systems
+ok 9 - hybrid compatibility accepts shared real-time systems
+  ---
+  duration_ms: 0.383025
+  type: 'test'
+  ...
+# Subtest: mixed clocks require explicit arbitration
+ok 10 - mixed clocks require explicit arbitration
+  ---
+  duration_ms: 0.460645
+  type: 'test'
+  ...
+# Subtest: tower defense rejects missing construction
+ok 11 - tower defense rejects missing construction
+  ---
+  duration_ms: 0.1644
+  type: 'test'
+  ...
+# Subtest: save roundtrip preserves all plugin states
+ok 12 - save roundtrip preserves all plugin states
+  ---
+  duration_ms: 1.529213
+  type: 'test'
+  ...
+# Subtest: corrupt JSON is recoverable
+ok 13 - corrupt JSON is recoverable
+  ---
+  duration_ms: 0.253972
+  type: 'test'
+  ...
+# Subtest: unsupported save version is recoverable
+ok 14 - unsupported save version is recoverable
+  ---
+  duration_ms: 0.132317
+  type: 'test'
+  ...
+# Subtest: oversized saves are rejected
+ok 15 - oversized saves are rejected
+  ---
+  duration_ms: 0.107143
+  type: 'test'
+  ...
+# Subtest: denied storage degrades without crashing
+ok 16 - denied storage degrades without crashing
+  ---
+  duration_ms: 0.196759
+  type: 'test'
+  ...
+# Subtest: hostile and malformed sessions cannot enter a mode
+ok 17 - hostile and malformed sessions cannot enter a mode
+  ---
+  duration_ms: 0.141327
+  type: 'test'
+  ...
+# Subtest: invalid nested projectile data is rejected
+ok 18 - invalid nested projectile data is rejected
+  ---
+  duration_ms: 0.202217
+  type: 'test'
+  ...
+# Subtest: hybrid state cannot masquerade as another mode
+ok 19 - hybrid state cannot masquerade as another mode
+  ---
+  duration_ms: 0.131177
+  type: 'test'
+  ...
+# Subtest: unsupported settings and duplicate keys reset safely
+ok 20 - unsupported settings and duplicate keys reset safely
+  ---
+  duration_ms: 0.189157
+  type: 'test'
+  ...
+# Subtest: only successful expeditions earn cosmetic XP and best scores
+ok 21 - only successful expeditions earn cosmetic XP and best scores
+  ---
+  duration_ms: 0.177669
+  type: 'test'
+  ...
+# Subtest: genre registry has unique entries and covers all requested genre families
+ok 22 - genre registry has unique entries and covers all requested genre families
+  ---
+  duration_ms: 0.216124
+  type: 'test'
+  ...
+# Subtest: only implemented genre capabilities are promised by mode plugins
+ok 23 - only implemented genre capabilities are promised by mode plugins
+  ---
+  duration_ms: 0.330995
+  type: 'test'
+  ...
+# Subtest: unknown genres and missing capabilities produce explicit failures
+ok 24 - unknown genres and missing capabilities produce explicit failures
+  ---
+  duration_ms: 0.109728
+  type: 'test'
+  ...
+# Subtest: procedural environments are deterministic
+ok 25 - procedural environments are deterministic
+  ---
+  duration_ms: 2.230442
+  type: 'test'
+  ...
+# Subtest: diagonal movement has normalized speed
+ok 26 - diagonal movement has normalized speed
+  ---
+  duration_ms: 0.920099
+  type: 'test'
+  ...
+# Subtest: large frame deltas are capped
+ok 27 - large frame deltas are capped
+  ---
+  duration_ms: 0.227637
+  type: 'test'
+  ...
+# Subtest: dash has a cooldown and accelerates movement
+ok 28 - dash has a cooldown and accelerates movement
+  ---
+  duration_ms: 0.248002
+  type: 'test'
+  ...
+# Subtest: collecting shards removes them and counts once
+ok 29 - collecting shards removes them and counts once
+  ---
+  duration_ms: 0.32384
+  type: 'test'
+  ...
+# Subtest: combat bullets damage enemies and record kills
+ok 30 - combat bullets damage enemies and record kills
+  ---
+  duration_ms: 2.264073
+  type: 'test'
+  ...
+# Subtest: walls stop player projectiles
+ok 31 - walls stop player projectiles
+  ---
+  duration_ms: 2.382938
+  type: 'test'
+  ...
+# Subtest: mining requires proximity and deposits finite resources
+ok 32 - mining requires proximity and deposits finite resources
+  ---
+  duration_ms: 0.3138
+  type: 'test'
+  ...
+# Subtest: construction consumes ore and enforces spacing
+ok 33 - construction consumes ore and enforces spacing
+  ---
+  duration_ms: 0.378009
+  type: 'test'
+  ...
+# Subtest: disabled construction cannot create turrets
+ok 34 - disabled construction cannot create turrets
+  ---
+  duration_ms: 0.465357
+  type: 'test'
+  ...
+# Subtest: turrets autonomously attack in range
+ok 35 - turrets autonomously attack in range
+  ---
+  duration_ms: 0.810007
+  type: 'test'
+  ...
+# Subtest: reactor and player destruction both produce losses
+ok 36 - reactor and player destruction both produce losses
+  ---
+  duration_ms: 0.219669
+  type: 'test'
+  ...
+# Subtest: rift requires every objective before extraction
+ok 37 - rift requires every objective before extraction
+  ---
+  duration_ms: 0.137011
+  type: 'test'
+  ...
+# Subtest: hybrid victory requires a living reactor and cleared waves
+ok 38 - hybrid victory requires a living reactor and cleared waves
+  ---
+  duration_ms: 0.115051
+  type: 'test'
+  ...
+# Subtest: tactics range uses paths, not through-wall Manhattan distance
+ok 39 - tactics range uses paths, not through-wall Manhattan distance
+  ---
+  duration_ms: 0.595719
+  type: 'test'
+  ...
+# Subtest: tactics cover blocks both attack directions
+ok 40 - tactics cover blocks both attack directions
+  ---
+  duration_ms: 0.239155
+  type: 'test'
+  ...
+# Subtest: tactics valid actions spend AP; invalid actions do not
+ok 41 - tactics valid actions spend AP; invalid actions do not
+  ---
+  duration_ms: 0.338261
+  type: 'test'
+  ...
+# Subtest: end turn drives enemy AI and replenishes action points
+ok 42 - end turn drives enemy AI and replenishes action points
+  ---
+  duration_ms: 0.451951
+  type: 'test'
+  ...
+# Subtest: tactics can lose through enemy actions
+ok 43 - tactics can lose through enemy actions
+  ---
+  duration_ms: 0.808516
+  type: 'test'
+  ...
+# Subtest: defeating last sentinel wins tactics
+ok 44 - defeating last sentinel wins tactics
+  ---
+  duration_ms: 0.171771
+  type: 'test'
+  ...
+# Subtest: puzzle rotation is a four-element cycle
+ok 45 - puzzle rotation is a four-element cycle
+  ---
+  duration_ms: 0.109288
+  type: 'test'
+  ...
+# Subtest: 100 procedural networks have valid connected solutions and scrambled starts
+ok 46 - 100 procedural networks have valid connected solutions and scrambled starts
+  ---
+  duration_ms: 15.017087
+  type: 'test'
+  ...
+# Subtest: 50 seeded puzzles can be completed through legal rotations within budget
+ok 47 - 50 seeded puzzles can be completed through legal rotations within budget
+  ---
+  duration_ms: 5.913907
+  type: 'test'
+  ...
+# Subtest: puzzle undo restores exact previous network and cost
+ok 48 - puzzle undo restores exact previous network and cost
+  ---
+  duration_ms: 0.297022
+  type: 'test'
+  ...
+# Subtest: puzzle budget creates a real loss and terminal state
+ok 49 - puzzle budget creates a real loss and terminal state
+  ---
+  duration_ms: 0.282825
+  type: 'test'
+  ...
+# Subtest: puzzle ignores malformed selection indices
+ok 50 - puzzle ignores malformed selection indices
+  ---
+  duration_ms: 0.162952
+  type: 'test'
+  ...
+# Subtest: puzzle reverse is inverse rotation at one action cost
+ok 51 - puzzle reverse is inverse rotation at one action cost
+  ---
+  duration_ms: 0.133764
+  type: 'test'
+  ...
+# Subtest: restarting each architecture with the same rules reproduces state
+ok 52 - restarting each architecture with the same rules reproduces state
+  ---
+  duration_ms: 0.514289
+  type: 'test'
+  ...
+# Subtest: action navigation finds a collision-clear path around cover
+ok 53 - action navigation finds a collision-clear path around cover
+  ---
+  duration_ms: 0.450684
+  type: 'test'
+  ...
+# Subtest: 20 seeded action expeditions finish through ordinary movement and combat
+ok 54 - 20 seeded action expeditions finish through ordinary movement and combat
+  ---
+  duration_ms: 277.812525
+  type: 'test'
+  ...
+# Subtest: 20 seeded hybrid expeditions finish through ordinary movement, fire, and construction
+ok 55 - 20 seeded hybrid expeditions finish through ordinary movement, fire, and construction
+  ---
+  duration_ms: 300.251133
+  type: 'test'
+  ...
+# Subtest: complete tactics expedition succeeds through legal move/attack/end-turn commands
+ok 56 - complete tactics expedition succeeds through legal move/attack/end-turn commands
+  ---
+  duration_ms: 3.109758
+  type: 'test'
+  ...
+# Subtest: browser launch/report configuration never serializes the runner credential environment
+ok 57 - browser launch/report configuration never serializes the runner credential environment
+  ---
+  duration_ms: 22.083186
+  type: 'test'
+  ...
+1..57
+# tests 57
+# suites 0
+# pass 57
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 901.368789

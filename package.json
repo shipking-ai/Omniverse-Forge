@@ -1,0 +1,29 @@
+{
+  "name": "omniverse-forge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A modular, playable multi-genre browser universe",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.17.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test",
+    "benchmark": "node scripts/benchmark.js",
+    "inventory": "node scripts/inventory.js",
+    "format": "prettier --write \"src/**/*.{js,css}\" \"tests/**/*.js\" \"scripts/*.js\" \"*.js\" package.json",
+    "format:check": "prettier --check \"src/**/*.{js,css}\" \"tests/**/*.js\" \"scripts/*.js\" \"*.js\" package.json",
+    "check:secrets": "node scripts/check-secrets.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@sparticuz/chromium": "153.0.0",
+    "prettier": "3.9.10",
+    "vite": "8.3.4"
+  }
+}

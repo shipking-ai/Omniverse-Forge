@@ -1,0 +1,1387 @@
+[
+  {
+    "id": "action",
+    "name": "Action",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "implemented",
+    "modes": [
+      "rift",
+      "frontier"
+    ]
+  },
+  {
+    "id": "adventure",
+    "name": "Adventure",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "platformer",
+    "name": "Platformer",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "metroidvania",
+    "name": "Metroidvania",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "first-person-shooter",
+    "name": "First Person Shooter",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "third-person-shooter",
+    "name": "Third Person Shooter",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "fighting",
+    "name": "Fighting",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "beat-em-up",
+    "name": "Beat Em Up",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "hack-and-slash",
+    "name": "Hack And Slash",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "character-action",
+    "name": "Character Action",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "stealth",
+    "name": "Stealth",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "survival",
+    "name": "Survival",
+    "family": "Action",
+    "required": [
+      "combat",
+      "resources"
+    ],
+    "clock": "real-time",
+    "status": "implemented",
+    "modes": [
+      "frontier"
+    ]
+  },
+  {
+    "id": "horror",
+    "name": "Horror",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "psychological-horror",
+    "name": "Psychological Horror",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "immersive-sim",
+    "name": "Immersive Sim",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "extraction-shooter",
+    "name": "Extraction Shooter",
+    "family": "Action",
+    "required": [
+      "movement",
+      "collision",
+      "combat"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "role-playing",
+    "name": "Role Playing",
+    "family": "Role playing",
+    "required": [
+      "progression",
+      "inventory",
+      "quests"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "mmorpg",
+    "name": "Mmorpg",
+    "family": "Role playing",
+    "required": [
+      "networking",
+      "authority",
+      "persistence",
+      "quests",
+      "progression"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "action-rpg",
+    "name": "Action Rpg",
+    "family": "Role playing",
+    "required": [
+      "progression",
+      "inventory",
+      "quests"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "tactical-rpg",
+    "name": "Tactical Rpg",
+    "family": "Role playing",
+    "required": [
+      "progression",
+      "inventory",
+      "quests"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "jrpg",
+    "name": "Jrpg",
+    "family": "Role playing",
+    "required": [
+      "progression",
+      "inventory",
+      "quests"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "creature-collector",
+    "name": "Creature Collector",
+    "family": "Role playing",
+    "required": [
+      "progression",
+      "inventory",
+      "quests"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "strategy",
+    "name": "Strategy",
+    "family": "Strategy",
+    "required": [
+      "agents",
+      "economy",
+      "navigation"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "real-time-strategy",
+    "name": "Real Time Strategy",
+    "family": "Strategy",
+    "required": [
+      "agents",
+      "economy",
+      "navigation"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "turn-based-strategy",
+    "name": "Turn Based Strategy",
+    "family": "Strategy",
+    "required": [
+      "grid",
+      "turns"
+    ],
+    "clock": "turn-based",
+    "status": "implemented",
+    "modes": [
+      "bastion"
+    ]
+  },
+  {
+    "id": "grand-strategy",
+    "name": "Grand Strategy",
+    "family": "Strategy",
+    "required": [
+      "agents",
+      "economy",
+      "navigation"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "4x",
+    "name": "4x",
+    "family": "Strategy",
+    "required": [
+      "agents",
+      "economy",
+      "navigation"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "tactical-combat",
+    "name": "Tactical Combat",
+    "family": "Strategy",
+    "required": [
+      "grid",
+      "turns",
+      "line-of-sight"
+    ],
+    "clock": "turn-based",
+    "status": "implemented",
+    "modes": [
+      "bastion"
+    ]
+  },
+  {
+    "id": "auto-battler",
+    "name": "Auto Battler",
+    "family": "Strategy",
+    "required": [
+      "agents",
+      "economy",
+      "navigation"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "tower-defense",
+    "name": "Tower Defense",
+    "family": "Strategy",
+    "required": [
+      "waves",
+      "construction"
+    ],
+    "clock": "either",
+    "status": "implemented",
+    "modes": [
+      "frontier"
+    ]
+  },
+  {
+    "id": "tower-offense",
+    "name": "Tower Offense",
+    "family": "Strategy",
+    "required": [
+      "agents",
+      "economy",
+      "navigation"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "simulation",
+    "name": "Simulation",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "life-simulation",
+    "name": "Life Simulation",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "farming",
+    "name": "Farming",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "colony-management",
+    "name": "Colony Management",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "city-building",
+    "name": "City Building",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "god-game",
+    "name": "God Game",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "transport-tycoon",
+    "name": "Transport Tycoon",
+    "family": "Simulation",
+    "required": [
+      "simulation",
+      "resources",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "sandbox",
+    "name": "Sandbox",
+    "family": "Sandbox",
+    "required": [
+      "world",
+      "interaction",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "open-world",
+    "name": "Open World",
+    "family": "Sandbox",
+    "required": [
+      "world",
+      "interaction",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "crafting",
+    "name": "Crafting",
+    "family": "Sandbox",
+    "required": [
+      "world",
+      "interaction",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "building",
+    "name": "Building",
+    "family": "Sandbox",
+    "required": [
+      "construction",
+      "resources"
+    ],
+    "clock": "real-time",
+    "status": "implemented",
+    "modes": [
+      "frontier"
+    ]
+  },
+  {
+    "id": "voxel",
+    "name": "Voxel",
+    "family": "Sandbox",
+    "required": [
+      "world",
+      "interaction",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "physics-sandbox",
+    "name": "Physics Sandbox",
+    "family": "Sandbox",
+    "required": [
+      "world",
+      "interaction",
+      "persistence"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "racing",
+    "name": "Racing",
+    "family": "Vehicles",
+    "required": [
+      "vehicle-dynamics",
+      "camera",
+      "collision"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "driving",
+    "name": "Driving",
+    "family": "Vehicles",
+    "required": [
+      "vehicle-dynamics",
+      "camera",
+      "collision"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "flight-simulation",
+    "name": "Flight Simulation",
+    "family": "Vehicles",
+    "required": [
+      "vehicle-dynamics",
+      "camera",
+      "collision"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "space-simulation",
+    "name": "Space Simulation",
+    "family": "Vehicles",
+    "required": [
+      "vehicle-dynamics",
+      "camera",
+      "collision"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "vehicle-combat",
+    "name": "Vehicle Combat",
+    "family": "Vehicles",
+    "required": [
+      "vehicle-dynamics",
+      "camera",
+      "collision"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "space-trading",
+    "name": "Space Trading",
+    "family": "Vehicles",
+    "required": [
+      "vehicle-dynamics",
+      "camera",
+      "collision"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "family": "Sports",
+    "required": [
+      "rules",
+      "collision",
+      "scoring"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "wrestling",
+    "name": "Wrestling",
+    "family": "Sports",
+    "required": [
+      "rules",
+      "collision",
+      "scoring"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "martial-arts",
+    "name": "Martial Arts",
+    "family": "Sports",
+    "required": [
+      "rules",
+      "collision",
+      "scoring"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "competitive",
+    "name": "Competitive",
+    "family": "Sports",
+    "required": [
+      "rules",
+      "collision",
+      "scoring"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "rhythm",
+    "name": "Rhythm",
+    "family": "Music",
+    "required": [
+      "audio-clock",
+      "timing",
+      "input-latency"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "family": "Music",
+    "required": [
+      "audio-clock",
+      "timing",
+      "input-latency"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "dance",
+    "name": "Dance",
+    "family": "Music",
+    "required": [
+      "audio-clock",
+      "timing",
+      "input-latency"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "musical-performance",
+    "name": "Musical Performance",
+    "family": "Music",
+    "required": [
+      "audio-clock",
+      "timing",
+      "input-latency"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "puzzle",
+    "name": "Puzzle",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "puzzle",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "implemented",
+    "modes": [
+      "signal"
+    ]
+  },
+  {
+    "id": "logic",
+    "name": "Logic",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "puzzle"
+    ],
+    "clock": "turn-based",
+    "status": "implemented",
+    "modes": [
+      "signal"
+    ]
+  },
+  {
+    "id": "word",
+    "name": "Word",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "trivia",
+    "name": "Trivia",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "board",
+    "name": "Board",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "card",
+    "name": "Card",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "tabletop",
+    "name": "Tabletop",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "deckbuilder",
+    "name": "Deckbuilder",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "nonogram",
+    "name": "Nonogram",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "programming-puzzle",
+    "name": "Programming Puzzle",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "escape-room",
+    "name": "Escape Room",
+    "family": "Puzzles & tabletop",
+    "required": [
+      "grid",
+      "rules",
+      "undo"
+    ],
+    "clock": "turn-based",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "roguelike",
+    "name": "Roguelike",
+    "family": "Procedural challenges",
+    "required": [
+      "procedural",
+      "run-lifecycle",
+      "progression"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "roguelite",
+    "name": "Roguelite",
+    "family": "Procedural challenges",
+    "required": [
+      "procedural",
+      "run-lifecycle",
+      "progression"
+    ],
+    "clock": "either",
+    "status": "partial",
+    "modes": [
+      "rift"
+    ]
+  },
+  {
+    "id": "dungeon-crawler",
+    "name": "Dungeon Crawler",
+    "family": "Procedural challenges",
+    "required": [
+      "procedural",
+      "run-lifecycle",
+      "progression"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "procedural-challenge",
+    "name": "Procedural Challenge",
+    "family": "Procedural challenges",
+    "required": [
+      "procedural",
+      "run-lifecycle",
+      "progression"
+    ],
+    "clock": "either",
+    "status": "partial",
+    "modes": [
+      "rift",
+      "signal"
+    ]
+  },
+  {
+    "id": "visual-novel",
+    "name": "Visual Novel",
+    "family": "Narrative",
+    "required": [
+      "dialogue",
+      "choices",
+      "persistence"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "interactive-fiction",
+    "name": "Interactive Fiction",
+    "family": "Narrative",
+    "required": [
+      "dialogue",
+      "choices",
+      "persistence"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "branching-narrative",
+    "name": "Branching Narrative",
+    "family": "Narrative",
+    "required": [
+      "dialogue",
+      "choices",
+      "persistence"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "detective",
+    "name": "Detective",
+    "family": "Narrative",
+    "required": [
+      "dialogue",
+      "choices",
+      "persistence"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "walking-simulator",
+    "name": "Walking Simulator",
+    "family": "Narrative",
+    "required": [
+      "dialogue",
+      "choices",
+      "persistence"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "educational",
+    "name": "Educational",
+    "family": "Learning",
+    "required": [
+      "domain-model",
+      "assessment",
+      "accessibility"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "serious",
+    "name": "Serious",
+    "family": "Learning",
+    "required": [
+      "domain-model",
+      "assessment",
+      "accessibility"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "historical",
+    "name": "Historical",
+    "family": "Learning",
+    "required": [
+      "domain-model",
+      "assessment",
+      "accessibility"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "scientific",
+    "name": "Scientific",
+    "family": "Learning",
+    "required": [
+      "domain-model",
+      "assessment",
+      "accessibility"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "training-simulation",
+    "name": "Training Simulation",
+    "family": "Learning",
+    "required": [
+      "domain-model",
+      "assessment",
+      "accessibility"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "party",
+    "name": "Party",
+    "family": "Social",
+    "required": [
+      "networking",
+      "identity",
+      "authority"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "social-deduction",
+    "name": "Social Deduction",
+    "family": "Social",
+    "required": [
+      "networking",
+      "identity",
+      "authority"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "cooperative",
+    "name": "Cooperative",
+    "family": "Social",
+    "required": [
+      "networking",
+      "identity",
+      "authority"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "competitive-multiplayer",
+    "name": "Competitive Multiplayer",
+    "family": "Social",
+    "required": [
+      "networking",
+      "identity",
+      "authority"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "massively-multiplayer",
+    "name": "Massively Multiplayer",
+    "family": "Social",
+    "required": [
+      "networking",
+      "identity",
+      "authority"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "idle",
+    "name": "Idle",
+    "family": "Economy",
+    "required": [
+      "economy",
+      "persistence",
+      "time"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "incremental",
+    "name": "Incremental",
+    "family": "Economy",
+    "required": [
+      "economy",
+      "persistence",
+      "time"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "clicker",
+    "name": "Clicker",
+    "family": "Economy",
+    "required": [
+      "economy",
+      "persistence",
+      "time"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "management",
+    "name": "Management",
+    "family": "Economy",
+    "required": [
+      "economy",
+      "persistence",
+      "time"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "tycoon",
+    "name": "Tycoon",
+    "family": "Economy",
+    "required": [
+      "economy",
+      "persistence",
+      "time"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "economic",
+    "name": "Economic",
+    "family": "Economy",
+    "required": [
+      "economy",
+      "persistence",
+      "time"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "family": "Arcade",
+    "required": [
+      "movement",
+      "scoring",
+      "run-lifecycle"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "retro",
+    "name": "Retro",
+    "family": "Arcade",
+    "required": [
+      "movement",
+      "scoring",
+      "run-lifecycle"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "bullet-hell",
+    "name": "Bullet Hell",
+    "family": "Arcade",
+    "required": [
+      "movement",
+      "scoring",
+      "run-lifecycle"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "shoot-em-up",
+    "name": "Shoot Em Up",
+    "family": "Arcade",
+    "required": [
+      "movement",
+      "scoring",
+      "run-lifecycle"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "score-attack",
+    "name": "Score Attack",
+    "family": "Arcade",
+    "required": [
+      "movement",
+      "scoring",
+      "run-lifecycle"
+    ],
+    "clock": "real-time",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "experimental",
+    "name": "Experimental",
+    "family": "Experimental",
+    "required": [
+      "custom-rules"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "abstract",
+    "name": "Abstract",
+    "family": "Experimental",
+    "required": [
+      "custom-rules"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "artistic",
+    "name": "Artistic",
+    "family": "Experimental",
+    "required": [
+      "custom-rules"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "generative",
+    "name": "Generative",
+    "family": "Experimental",
+    "required": [
+      "custom-rules"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "unconventional",
+    "name": "Unconventional",
+    "family": "Experimental",
+    "required": [
+      "custom-rules"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  },
+  {
+    "id": "asymmetric-multiplayer",
+    "name": "Asymmetric Multiplayer",
+    "family": "Experimental",
+    "required": [
+      "custom-rules"
+    ],
+    "clock": "either",
+    "status": "planned",
+    "modes": []
+  }
+]
